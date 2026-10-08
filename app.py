@@ -9,7 +9,7 @@ import yfinance as yf
 from analytics import daily_returns, portfolio_series, metrics, growth_index
 
 st.set_page_config(page_title='Portfolio Risk Analyzer', page_icon='📊', layout='wide')
-st.title('📊 Portfolio Risk Analyzer')
+st.title('Portfolio Risk Analyzer')
 st.caption('Explore historical performance, diversification, risk and drawdowns. Educational use only.')
 
 with st.sidebar:
